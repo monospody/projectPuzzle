@@ -5,8 +5,6 @@ import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.input.MouseEvent;
 
-import java.io.File;
-
 public class Controller {
 
     public ImageView btn16, btn1, btn2, btn3;
@@ -69,10 +67,6 @@ public class Controller {
     public void shuffleButton(ActionEvent actionEvent) {
             game.getField().shuffle();
             rePaint();
-    }
-    public void isWinner(){
-
-
     }
 
 }
